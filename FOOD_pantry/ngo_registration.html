@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO Registration</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="ngo_registration.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title">
+          <span style="color: black">NGO Registration</span>
+        </div>
+        <form action="ngo_registration.php" method="post">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" name="name" placeholder="NGO Name" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-envelope"></i>
+            <input
+              type="email"
+              name="email"
+              placeholder="NGO official email"
+              required
+            />
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="row">
+            <i class="fas fa-phone"></i>
+            <input
+              type="text"
+              name="contact_no"
+              placeholder="NGO Phone Number"
+              required
+            />
+          </div>
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input
+              type="text"
+              name="contact_person"
+              placeholder="Contact Person Name"
+              required
+            />
+          </div>
+          <div class="row">
+            <i class="fas fa-phone"></i>
+            <input
+              type="text"
+              name="contact_no"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+          <div class="row">
+            <i class="fas fa-map-marker-alt"></i>
+            <input
+              type="text"
+              name="location"
+              placeholder="Location"
+              required
+            />
+          </div>
+          <div class="row">
+            <i class="fas fa-id-card"></i>
+            <input
+              type="text"
+              name="registration_no"
+              placeholder="NGO Registration Number"
+              required
+            />
+          </div>
+          <div class="row button">
+            <input type="submit" name="register" value="Register" />
+          </div>
+          <div class="signup-link">Already registered? <a href="ngo_login.php">Login now</a></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
